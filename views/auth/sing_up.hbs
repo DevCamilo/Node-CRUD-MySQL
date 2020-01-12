@@ -1,0 +1,30 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h3>Registro</h3>
+                </div>
+                <div class="card-body">
+                    <form action="/signup" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="full_name" placeholder="Nombre" class="form-control"
+                                autofocus="true" required="true" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="user_name" placeholder="Nombre de Usuario" class="form-control"
+                                required="true" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="password" placeholder="Contraseña" class="form-control"
+                                required="true" autocomplete="off">
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block">
+                            Registrar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
